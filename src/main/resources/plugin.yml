@@ -1,0 +1,9 @@
+name: PlayerTeleport
+version: '${project.version}'
+main: com.darksavci.playerteleport.PlayerTeleport
+api-version: 1.16
+commands:
+  tpcancel:
+    description: Cancels the current teleport request
+  tpplayer:
+    description: Accepts the current teleport request
